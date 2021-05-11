@@ -3,3 +3,16 @@ version: ${project.version}
 main: net.kigawa.minecraft.spigot.mogiplugin.MogiPlugin
 api-version: 1.16
 authors: [ kigawa ]
+commands:
+  list:
+    description: list
+    usage: /list
+    permission: mogiplugin.list
+  load:
+    description: load
+    usage: /load
+    permission: mogiplugin.load
+  restore:
+    description: restore
+    usage: /restore
+    permission: mogiplugin.restore
