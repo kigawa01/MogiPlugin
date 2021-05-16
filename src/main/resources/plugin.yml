@@ -16,3 +16,7 @@ commands:
     description: restore
     usage: /restore
     permission: mogiplugin.restore
+  redstone:
+    description: can use redstone
+    usage: /redstone true/false
+    permission: mogiplugin.redstone
