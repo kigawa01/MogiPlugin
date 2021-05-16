@@ -29,7 +29,7 @@ public final class MogiPlugin extends JavaPlugin {
         Server server=getServer();
         PluginManager pluginManager=server.getPluginManager();
 
-        //plugin.getCommand("list").setExecutor(new ListCommand(this));
+        //plugin.getCommand("worldlist").setExecutor(new ListCommand(this));
         //plugin.getCommand("load").setExecutor(new LoadCommand(this));
         //plugin.getCommand("restore").setExecutor(new RestoreCommand(this));
         plugin.getCommand("redstone").setExecutor(new RedStoneCommand(this));

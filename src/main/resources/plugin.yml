@@ -4,9 +4,9 @@ main: net.kigawa.minecraft.spigot.mogiplugin.MogiPlugin
 api-version: 1.16
 authors: [ kigawa ]
 commands:
-  list:
-    description: list
-    usage: /list
+  worldlist:
+    description: worldlist
+    usage: /worldlist
     permission: mogiplugin.list
   load:
     description: load
