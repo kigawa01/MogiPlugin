@@ -14,13 +14,13 @@ public class RedStoneCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender,  Command command, String label, String[] args) {
         plugin.Logger("redstone1");
-        if(label.equals("on")) {
+        if(args[0].equals("on")) {
             plugin.Logger("redstone1.1");
             plugin.redStoneCommand = true;
             return true;
         }
         plugin.Logger("redstone2");
-        if(label.equals("off")){
+        if(args[0].equals("off")){
             plugin.Logger("redstone2.1");
             plugin.redStoneCommand=false;
             return true;
