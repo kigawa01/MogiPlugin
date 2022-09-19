@@ -15,7 +15,7 @@ public final class MogiPlugin extends JavaPlugin {
     MogiPlugin plugin=this;
     File worldFile;
     File worldBackup;
-    public boolean redStoneCommand=false;
+    public boolean redStoneCommand=true;
 
     @Override
     public void onEnable() {
